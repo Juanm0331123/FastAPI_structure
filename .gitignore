@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de pruebas
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Archivos de Docker
+*.pid
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
